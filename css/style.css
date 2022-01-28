@@ -12,12 +12,12 @@ body {
 }
 h1 {
   margin: 0;
-  font-family: Caveat;
+  font-family: "Caveat", cursive;
   font-size: 3.75rem;
   color: #1572a1;
 }
 h3 {
-  font-family: Roboto Slab;
+  font-family: "Roboto Slab", serif;
   padding-top: 20px;
   font-size: 1.87rem;
   color: #1572a1;
@@ -25,4 +25,7 @@ h3 {
 .mountain {
   display: inline-block;
   margin: 0 auto;
+}
+p {
+  font-family: "Open Sans", sans-serif;
 }
