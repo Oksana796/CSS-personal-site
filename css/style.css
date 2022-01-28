@@ -4,20 +4,25 @@ body {
   text-align: center;
 }
 .greeting {
-  padding-top: 150px;
+  padding-top: 110px;
   display: block;
   margin: 0 auto;
   width: 100%;
+  height: 100%;
 }
 h1 {
   margin: 0;
   font-family: Caveat;
-  font-size: 40px;
+  font-size: 3.75rem;
+  color: #1572a1;
 }
 h3 {
-  font-family: open sans;
+  font-family: Roboto Slab;
   padding-top: 20px;
+  font-size: 1.87rem;
+  color: #1572a1;
 }
 .mountain {
   display: inline-block;
+  margin: 0 auto;
 }
