@@ -3,7 +3,7 @@ body {
   background-color: #96c4db;
   text-align: center;
 }
-.greeting {
+.top-container {
   padding-top: 110px;
   display: block;
   margin: 0 auto;
@@ -22,9 +22,31 @@ h3 {
   font-size: 1.87rem;
   color: #1572a1;
 }
+.greeting-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+}
 .mountain {
-  display: inline-block;
-  margin: 0 auto;
+  width: 50%;
+}
+.present-text {
+  width: 50%;
+  line-height: 2;
+  justify-content: left;
 }
 p {
   font-family: "Open Sans", sans-serif;
