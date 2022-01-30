@@ -1,9 +1,9 @@
 body {
   margin: 0;
-  background-color: #96c4db;
   text-align: center;
 }
 .top-container {
+  background-color: #96c4db;
   padding-top: 110px;
   display: block;
   margin: 0 auto;
@@ -16,17 +16,19 @@ h1 {
   font-size: 3.75rem;
   color: #1572a1;
 }
-h3 {
+h4 {
   font-family: "Roboto Slab", serif;
   padding-top: 20px;
-  font-size: 1.87rem;
+  font-size: 1.5rem;
   color: #1572a1;
+  margin-top: 0;
 }
 .greeting-row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -40,14 +42,41 @@ h3 {
   justify-content: center;
   align-items: center;
 }
-.mountain {
+.avatar {
   width: 50%;
+  height: 300px;
 }
 .present-text {
   width: 50%;
   line-height: 2;
   justify-content: left;
+  font-family: "Caveat", cursive;
+  font-size: 20px;
 }
-p {
-  font-family: "Open Sans", sans-serif;
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #96c4db;
+  border-width: 5px;
+  width: 10%;
+  margin: 30px auto;
+}
+
+.middle-container {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  background-color: rgb(230, 196, 196);
+  padding-bottom: 50px;
+}
+.languages {
+  width: ;
+}
+.bottom-container {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #c5ded7;
+  padding-top: 50px;
 }
